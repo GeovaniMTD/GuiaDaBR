@@ -1,0 +1,23 @@
+<ion-menu [content]="conteudo">
+    <ion-content>
+        <ion-list>
+            <button ion-item (click)="openPage(home)" menuClose>                
+                Mapa
+            </button>
+                 <button ion-item (click)="openPage(minhaconta)" menuClose>                
+                    Minha-Conta
+                </button>
+                    <button ion-item (click)="openPage(MinhacontaPage)" menu-close>                
+                        Menssagem
+                    </button>
+                    <button ion-item (click)="openPage(MinhacontaPage)" menu-close>                
+                            Emergência
+                        </button>
+                        <button ion-item (click)="openPage(MinhacontaPage)" menu-close>                
+                            Configuração
+                        </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-nav [root]="rootPage" #conteudo></ion-nav>

@@ -1,0 +1,7 @@
+{
+  "name": "GuiaDaBr",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
